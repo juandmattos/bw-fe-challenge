@@ -1,0 +1,37 @@
+.container {
+  padding: 2rem;
+  border-radius: 14px;
+  background-color: #3f3f3f;
+  cursor: pointer;
+  border: 0.5px solid darkgray;
+  margin: 1rem;
+}
+.container:hover {
+  background-color: darkgray;
+}
+
+img {
+  max-width: 50px;
+  max-height: 100%;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.itemContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.favIcon {
+  color: gold
+}
